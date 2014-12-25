@@ -1,0 +1,22 @@
+{
+    "name": "deniaz/enchant",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Vogt",
+            "email": "robert@cheekyowl.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Enchant\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-kernel": "~2.6",
+        "nikic/fast-route": "0.3.*",
+        "aura/di": "~2.1",
+        "league/event": "~2.0",
+        "league/plates": "~3.1"
+    }
+}
